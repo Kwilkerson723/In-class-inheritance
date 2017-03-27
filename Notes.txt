@@ -1,0 +1,56 @@
+inheritance 
+
+create a class where other classes share features from that class instead of writing new classes
+
+"is-a" always refers to inheritance
+"has-a" refers to composition
+	composition is if your class has another class it is composition
+		car is made up of multiple classes 
+x ,y
+if y isnt x 
+	then inheritence 
+if x has a y 
+	then composition
+
+car
+|
+engine | wheels |
+|	   |
+|	   Number of wheels
+|
+|
+year|build|fuel
+
+
+inheritance should be used when creating classes that have things in common //it is much faster 
+classes that inherit share values from the base class
+
+classes can inherit from other classes
+
+Character //base class, has health, name and functions that return the values of health and name
+|
+|		
+warrior   //class that inherits Character values, has all of characters values and functions but also has some of its own such as swordType and a function that taunts
+|
+|
+berserker // Class that is derived from warrior, can do everything warrior can do plus its own unique things
+
+
+wednesday we cover polymorphism //making the compiler think that one type is a different type?
+
+Fork and expand the code, make an rpg?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
